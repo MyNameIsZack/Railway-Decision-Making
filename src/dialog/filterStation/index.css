@@ -1,0 +1,43 @@
+.FitlerStation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .FitlerStation {
+    position: relative;
+    width: 75%;
+    height: 90%;
+    background-color: #282c34;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    border-radius: 10px; /* 添加圓角 */
+  }
+
+  .FitlerStation-header {
+    display: flex;
+    width: 100%;
+    height: 24px;
+  }
+
+  .FitlerStation-header h3 {
+    padding: 0;
+    margin: 0;
+    flex: 100%;
+  }
+
+  .FitlerStation-header-close {
+    padding: 0;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
