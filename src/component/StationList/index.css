@@ -25,11 +25,33 @@
 }
 
 .StationList-items {
+  display: grid;
+  gap: 1em;
   background-color: #242424;
   padding: 5%;
   list-style-type: none;
 }
 
-.StationList-items li{
-  margin-bottom: 5%;
+@media screen and (min-width: 0px) {
+  .StationList-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .StationList-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .StationList-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .StationList-items {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

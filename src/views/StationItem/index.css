@@ -35,7 +35,7 @@
 .StationItem-img-content img {
   max-height: 100%;
   width: 100%;
-  object-fit:contain; /* Optional: to fit the image within the container */
+  object-fit:cover; /* Optional: to fit the image within the container */
 }
 
 .StationItem-content h6 {
@@ -44,7 +44,7 @@
   height: 20%;
   top: 5%;
   text-align: left;
-  font-size: 7vw;
+  font-size: 1em;
   margin: 0;
   overflow-wrap: break-word;
 }
@@ -52,11 +52,15 @@
 .StationItem-content p {
   position: absolute;
   width: 90%;
-  height: 55%;
-  top: 25%;
+  height: 50%;
+  top: 30%;
   text-align: left;
-  font-size: 5vw;
+  font-size: 0.8em;
   margin: 0;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
   overflow-wrap: break-word;
 }
 
@@ -70,10 +74,11 @@
 
 .StationItem-content-footer a {
   text-align: left;
-  font-size: 4vw;
+  font-size: 0.7em;
   color: #61dafb;
   text-decoration: none;
   display: inline-block;
+  overflow-wrap: break-word;
 }
 
 .StationItem-content-footer a:hover {

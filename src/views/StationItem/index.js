@@ -24,11 +24,6 @@ const StationItem = ({
             <p>地址: {StationAddress}</p>
             <div className='StationItem-content-footer'>
               <a href={StationURL} target="_blank" rel="noopener noreferrer">更多資訊</a>
-              <DisLike 
-              className = "StationItem-content-footer-dislike"
-              stroke='#ffff'
-              isDisLike={false}
-              />
             </div>
           </div>
         </div>
