@@ -1,6 +1,6 @@
 .StationList {
   --qty: 1;
-  --item-width: 180px;
+  --item-width: 170px;
   --item-padding: 0.75em;
   --item-gap: 0.75em;
 
@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 400px) {
   .StationList {
     --qty: 2;
   }
