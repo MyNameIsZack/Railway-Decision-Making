@@ -1,6 +1,6 @@
 .StationList {
   --qty: 1;
-  --item-width: 170px;
+  --item-width: 180px;
   --item-padding: 0.75em;
   --item-gap: 0.75em;
 
@@ -44,16 +44,16 @@
 .StationList-items li {
   padding: 0;
   width: var(--item-width);
-  font-size: 16px;
+  font-size: 16.5px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
   .StationList {
     --qty: 2;
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   .StationList {
     --qty: 3;
   }
@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1200px) {
   .StationList {
     --qty: 5;
   }
