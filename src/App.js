@@ -1,7 +1,6 @@
 import React from 'react';
 import StationList from './component/StationList';
 import './App.css';
-import Lottery from './component/Lottery';
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
         <div>
           <p>開抽</p>
         </div>
-        <Lottery />
         <StationList />
       </header>
     </div>
