@@ -14,7 +14,7 @@
 .StationItem-img-content {
   position: absolute;
   width: 100%;
-  height: 50%;
+  height: 55%;
   display: flex;
   top: 0;
   overflow: hidden;
@@ -25,7 +25,7 @@
   width: 90%;
   padding-left: 5%;
   padding-right: 5%;
-  height: 50%;
+  height: 45%;
   display: flex;
   flex-direction: column;
   bottom: 0;
@@ -39,6 +39,7 @@
 }
 
 .StationItem-content h6 {
+  font-weight: bold;
   position: absolute;
   width: 90%;
   height: 20%;
@@ -52,10 +53,10 @@
 .StationItem-content p {
   position: absolute;
   width: 90%;
-  height: 50%;
-  top: 30%;
+  height: 55%;
+  top: 25%;
   text-align: left;
-  font-size: 0.8em;
+  font-size: 0.75em;
   margin: 0;
   
   overflow: hidden;
@@ -74,7 +75,7 @@
 
 .StationItem-content-footer a {
   text-align: left;
-  font-size: 0.7em;
+  font-size: 0.65em;
   color: #61dafb;
   text-decoration: none;
   display: inline-block;

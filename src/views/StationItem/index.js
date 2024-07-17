@@ -21,7 +21,7 @@ const StationItem = ({
           </div>
           <div className='StationItem-content'>
             <h6>{StationName.Zh_tw}</h6>
-            <p>地址: {StationAddress}</p>
+            <p>{StationAddress}</p>
             <div className='StationItem-content-footer'>
               <a href={StationURL} target="_blank" rel="noopener noreferrer">更多資訊</a>
             </div>
