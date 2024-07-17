@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Railway-Decision-Making/static/css/main.2dd1cd4b.css",
-    "main.js": "/Railway-Decision-Making/static/js/main.0c4f85bb.js",
+    "main.css": "/Railway-Decision-Making/static/css/main.ac63dfeb.css",
+    "main.js": "/Railway-Decision-Making/static/js/main.f5034f64.js",
     "static/js/453.2c2d7396.chunk.js": "/Railway-Decision-Making/static/js/453.2c2d7396.chunk.js",
     "static/media/upload.png": "/Railway-Decision-Making/static/media/upload.df6e4e467a3108144a66.png",
     "index.html": "/Railway-Decision-Making/index.html",
     "static/media/close.svg": "/Railway-Decision-Making/static/media/close.8af2a636c2cb39d6f0de3c793ce30f84.svg",
-    "main.2dd1cd4b.css.map": "/Railway-Decision-Making/static/css/main.2dd1cd4b.css.map",
-    "main.0c4f85bb.js.map": "/Railway-Decision-Making/static/js/main.0c4f85bb.js.map",
+    "main.ac63dfeb.css.map": "/Railway-Decision-Making/static/css/main.ac63dfeb.css.map",
+    "main.f5034f64.js.map": "/Railway-Decision-Making/static/js/main.f5034f64.js.map",
     "453.2c2d7396.chunk.js.map": "/Railway-Decision-Making/static/js/453.2c2d7396.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dd1cd4b.css",
-    "static/js/main.0c4f85bb.js"
+    "static/css/main.ac63dfeb.css",
+    "static/js/main.f5034f64.js"
   ]
 }
