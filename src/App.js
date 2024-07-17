@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <p>開抽</p>
+          <p>開抽1</p>
         </div>
         <StationList />
       </header>

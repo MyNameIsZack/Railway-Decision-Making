@@ -46,8 +46,13 @@
   width: var(--item-width);
   font-size: 16.5px;
 }
+@media screen and (min-width: 0px) {
+  .StationList {
+    --qty: 1;
+  }
+}
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 450px) {
   .StationList {
     --qty: 2;
   }
@@ -59,13 +64,13 @@
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 850px) {
   .StationList {
     --qty: 4;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) {
   .StationList {
     --qty: 5;
   }
