@@ -1,8 +1,8 @@
 .StationList {
   --qty: 1;
-  --item-width: 200px;
-  --item-padding: 0.5em;
-  --item-gap: 0.5em;
+  --item-width: 170px;
+  --item-padding: 0.75em;
+  --item-gap: 0.75em;
 
   width: calc(var(--item-width) * var(--qty) + (var(--qty) - 1) * var(--item-gap) + 2 * var(--item-padding)); /* Adjusted width calculation to include gap */
   max-width: 100%;
@@ -44,10 +44,10 @@
 .StationList-items li {
   padding: 0;
   width: var(--item-width);
-  font-size: 18px;
+  font-size: 16px;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 400px) {
   .StationList {
     --qty: 2;
   }
@@ -59,13 +59,13 @@
   }
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 900px) {
   .StationList {
     --qty: 4;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1150px) {
   .StationList {
     --qty: 5;
   }
