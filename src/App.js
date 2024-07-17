@@ -1,7 +1,7 @@
 import React from 'react';
-import StationList from '../component/StationList';
+import StationList from './component/StationList';
 import './App.css';
-import Lottery from '../component/Lottery';
+import Lottery from './component/Lottery';
 
 function App() {
   return (
